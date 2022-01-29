@@ -40,7 +40,7 @@ namespace Heinermann.BetterCreative
 
       UnlimitedStamina = Config.Bind("Improvements", "Unlimited Stamina", true, "Can always perform stamina actions regardless of stamina amount.");
       AllPrefabs = Config.Bind("Improvements", "All Prefabs", true, "Allow placement of all functional prefabs. (Requires restart to take effect)");
-      UnrestrictedPlacement = Config.Bind("Improvements", "Unrestricted Placement", true, "Allow unrestricted placements (no collision, campfire on wood, etc). Note: Disabling this won't allow placement of some objects. (Requires restart to take effect)");
+      UnrestrictedPlacement = Config.Bind("Improvements", "Unrestricted Placement", false, "Allow unrestricted placements (no collision, campfire on wood, etc). Note: Disabling this won't allow placement of some objects. (Requires restart to take effect)");
       NoPieceDrops = Config.Bind("Improvements", "No Piece Drops", true, "Don't drop materials when pieces are destroyed.");
       NoPieceDelay = Config.Bind("Improvements", "No Placement Delay", true, "No cooldowns for the hammer, cultivator, or hoe. (Requires restart to take effect)");
       NoDurabilityDrain = Config.Bind("Improvements", "No Durability Drain", true, "Tools don't lose durability. (Requires restart to take effect)");
